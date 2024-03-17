@@ -7,12 +7,15 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BaseButton: typeof import('./components/share/button/ButtonPrimary.vue')['default']
     BaseErrMsg: typeof import('./components/share/err-msg/BaseErrMsg.vue')['default']
     BaseForm: typeof import('./components/share/form/BaseForm.vue')['default']
     BaseInput: typeof import('./components/share/input/BaseInput.vue')['default']
+    ButtonPrimary: typeof import('./components/share/button/ButtonPrimary.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Test: typeof import('./components/Test.vue')['default']
+    TextBody2: typeof import('./components/share/literal/TextBody2.vue')['default']
   }
 }

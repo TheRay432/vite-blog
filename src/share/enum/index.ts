@@ -17,3 +17,10 @@ export enum InputType {
   /** 數字 */
   Number = 'number',
 }
+
+/** 按鈕大小 */
+export enum ButtonType {
+  Small = 'small',
+  Normal = 'normal',
+  Large = 'large',
+}

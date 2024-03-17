@@ -1,3 +1,5 @@
 {
-  "common.label.required": "此欄位為必填欄位"
+  "common.label.required": "此欄位為必填欄位",
+  "common.label.login": "登入",
+  "common.label.register": "註冊"
 }
