@@ -13,6 +13,8 @@ export interface BaseInputProps {
   placeholder?: string;
   /** 驗證規則 */
   rules?: RuleExpression<unknown>;
+  /** 是否錯誤 */
+  errors: Partial<Record<string, string | undefined>>;
 }
 
 /** BaseErrMsg元件-props */

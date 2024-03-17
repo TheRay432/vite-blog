@@ -8,7 +8,7 @@ function handelSubmit(): void {
 }
 </script>
 <template>
-  <v-form @submit="handelSubmit">
-    <slot></slot>
+  <v-form @submit="handelSubmit" v-slot="{ errors }">
+    <slot :errors="errors"></slot>
   </v-form>
 </template>
