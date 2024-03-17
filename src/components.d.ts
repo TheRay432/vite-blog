@@ -12,10 +12,13 @@ declare module 'vue' {
     BaseForm: typeof import('./components/share/form/BaseForm.vue')['default']
     BaseInput: typeof import('./components/share/input/BaseInput.vue')['default']
     ButtonPrimary: typeof import('./components/share/button/ButtonPrimary.vue')['default']
+    ButtonSuccess: typeof import('./components/share/button/ButtonSuccess.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
+    NavBar: typeof import('./components/NavBar/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Test: typeof import('./components/Test.vue')['default']
     TextBody2: typeof import('./components/share/literal/TextBody2.vue')['default']
+    TextBodyTitle: typeof import('./components/share/literal/TextBodyTitle.vue')['default']
   }
 }

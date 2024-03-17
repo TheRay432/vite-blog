@@ -1,5 +1,8 @@
 <script setup lang="ts"></script>
 
-<template></template>
+<template>
+  <NavBar />
+  <router-view></router-view>
+</template>
 
 <style scoped></style>

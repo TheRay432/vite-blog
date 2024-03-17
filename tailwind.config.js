@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'button-blue': '#0dcaf0',
+        'button-green': '#198754',
       },
     },
   },

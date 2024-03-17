@@ -1,5 +1,11 @@
 {
   "common.label.required": "此欄位為必填欄位",
   "common.label.login": "登入",
-  "common.label.register": "註冊"
+  "common.label.register": "註冊",
+
+  "navbar.label.title": "Ray's Blog",
+  "navbar.label.home": "首頁",
+  "navbar.label.post": "貼文",
+  "navbar.label.myPost": "我的貼文",
+  "navbar.label.write": "發文"
 }
