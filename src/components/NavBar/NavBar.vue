@@ -39,12 +39,12 @@ import { ButtonType } from '@/share/enum';
         <!-- 登入註冊 -->
         <div class="flex gap-x-4">
           <ButtonPrimary
-            :buttonType="ButtonType.Small"
-            :dataOption="{ content: 'common.label.login' }"
+            :button-type="ButtonType.Small"
+            :data-option="{ content: 'common.label.login' }"
           />
           <ButtonSuccess
-            :buttonType="ButtonType.Small"
-            :dataOption="{ content: 'common.label.register' }"
+            :button-type="ButtonType.Small"
+            :data-option="{ content: 'common.label.register' }"
           />
         </div>
       </div>

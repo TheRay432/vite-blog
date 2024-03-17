@@ -7,5 +7,9 @@
   "navbar.label.home": "首頁",
   "navbar.label.post": "貼文",
   "navbar.label.myPost": "我的貼文",
-  "navbar.label.write": "發文"
+  "navbar.label.write": "發文",
+  "navbar.label.feel.title.1": "寫下你的",
+  "navbar.label.feel.title.2": "心情吧!",
+  "navbar.label.feel.content": "將生活上的煩惱或開心的事情都寫下吧!",
+  "navbar.label.feel.goToPost": "立即出發去發文"
 }
