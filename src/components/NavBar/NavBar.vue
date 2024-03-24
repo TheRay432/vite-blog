@@ -3,14 +3,19 @@ import { ButtonType } from '@/share/enum';
 import { useModalStore } from '@/stores/modal/modal';
 import RegisterModal from '@/components/share/modal/register/RegisterModal.vue';
 import LoginModal from '@/components/share/modal/login/LoginModal.vue';
+import { ModalConfig } from '@/share/class';
 const modalStore = useModalStore();
 /** 註冊 */
 function handleRegister(): void {
-  modalStore.opModal(RegisterModal);
+  const config = new ModalConfig();
+  config.borderColor = 'border-button-green';
+  modalStore.opModal(RegisterModal, config);
 }
 /** 登入 */
 function handleLogin(): void {
-  modalStore.opModal(LoginModal);
+  const config = new ModalConfig();
+  config.borderColor = 'border-button-blue';
+  modalStore.opModal(LoginModal, config);
 }
 </script>
 <template>

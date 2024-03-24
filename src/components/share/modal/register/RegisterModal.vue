@@ -1,9 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useModalStore } from '@/stores/modal/modal';
+
+const modalStore = useModalStore();
+</script>
 <template>
-  <div class="modal">register</div>
+  <div>register</div>
 </template>
-<style scoped lang="scss">
-.modal {
-  @apply bg-white w-96 h-96;
-}
-</style>
+<style scoped lang="scss"></style>

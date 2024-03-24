@@ -7,7 +7,7 @@ const modalStore = useModalStore();
 <template>
   <NavBar />
   <router-view></router-view>
-  <Modal v-if="modalStore.isModalOpen" />
+  <Modal />
 </template>
 
 <style scoped></style>
