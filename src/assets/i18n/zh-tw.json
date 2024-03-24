@@ -11,5 +11,19 @@
   "navbar.label.feel.title.1": "寫下你的",
   "navbar.label.feel.title.2": "心情吧!",
   "navbar.label.feel.content": "將生活上的煩惱或開心的事情都寫下吧!",
-  "navbar.label.feel.goToPost": "立即出發去發文"
+  "navbar.label.feel.goToPost": "立即出發去發文",
+
+  "life.label.title": "讓我們幫你抒發生活上的情感吧!",
+  "life.label.content.1": "只要簡單的幾分鐘,就能夠寫下一整天",
+  "life.label.content.2": "在生活上發生的事情,並且步驟上也是相當簡單",
+  "life.label.content.3": "無論是在註冊或發文程序上都能讓你",
+  "life.label.content.4": "能夠快速上手",
+
+  "doSometing.label.title": "不知道要寫什麼嗎?",
+  "doSometing.label.card1.title": "生活上的趣事",
+  "doSometing.label.card1.content": "生活上發生的趣事就可以寫下來喔!",
+  "doSometing.label.card2.title": "傷心的事",
+  "doSometing.label.card2.content": "即使在傷心的時候,也可以寫下來,當你之後回頭看的時候,可以回想起當時的你!",
+  "doSometing.label.card3.title": "寫寫筆記",
+  "doSometing.label.card3.content": "可以拿來寫筆記,紀錄一下當天學到什麼,或碰到什麼問題"
 }

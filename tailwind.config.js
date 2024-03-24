@@ -7,6 +7,9 @@ export default {
         'button-blue': '#0dcaf0',
         'button-green': '#198754',
       },
+      boxShadow: {
+        card: '0 0.5rem 1rem rgba(0, 0, 0, 0.25)',
+      },
     },
   },
   plugins: [],

@@ -6,6 +6,10 @@ const props = withDefaults(defineProps<ButtonPrimaryProps>(), {
   /** 按鈕大小 */
   buttonType: ButtonType.Normal,
 });
+const emit = defineEmits<{
+  /** 按鈕點擊事件 */
+  clickEvent: [];
+}>();
 </script>
 <template>
   <button
@@ -15,6 +19,7 @@ const props = withDefaults(defineProps<ButtonPrimaryProps>(), {
       normal: buttonType === ButtonType.Normal,
       large: buttonType === ButtonType.Large,
     }"
+    @click="$emit('clickEvent')"
   >
     <div>
       <i class="text-lg" :class="dataOption.leftIcon" v-if="dataOption.leftIcon"></i>

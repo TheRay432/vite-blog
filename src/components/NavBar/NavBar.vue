@@ -1,8 +1,20 @@
 <script setup lang="ts">
 import { ButtonType } from '@/share/enum';
+import { useModalStore } from '@/stores/modal/modal';
+import RegisterModal from '@/components/share/modal/register/RegisterModal.vue';
+import LoginModal from '@/components/share/modal/login/LoginModal.vue';
+const modalStore = useModalStore();
+/** 註冊 */
+function handleRegister(): void {
+  modalStore.opModal(RegisterModal);
+}
+/** 登入 */
+function handleLogin(): void {
+  modalStore.opModal(LoginModal);
+}
 </script>
 <template>
-  <header class="sticky top-0 z-50 shadow-md">
+  <header class="sticky top-0 z-50 shadow-md bg-white">
     <div class="max-w-6xl flex justify-between items-center py-4 mx-auto">
       <!-- 標題 -->
       <div class="flex items-center text-button-blue text-2xl">
@@ -41,10 +53,12 @@ import { ButtonType } from '@/share/enum';
           <ButtonPrimary
             :button-type="ButtonType.Small"
             :data-option="{ content: 'common.label.login' }"
+            @click-event="handleLogin()"
           />
           <ButtonSuccess
             :button-type="ButtonType.Small"
             :data-option="{ content: 'common.label.register' }"
+            @click-event="handleRegister()"
           />
         </div>
       </div>
