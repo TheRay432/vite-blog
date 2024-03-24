@@ -12,7 +12,7 @@ export const useModalStore = defineStore('modal', () => {
   /** 打開彈窗 */
   const opModal = (component: Component, config?: ModalConfig) => {
     isModalOpen.value = true;
-    modalComponent.value = component;
+    modalComponent.value = markRaw(component);
     config ? (modalConfig.value = config) : '';
   };
   /** 關閉彈窗 */

@@ -16,7 +16,15 @@ const { modalConfig } = storeToRefs(modalStore);
         'border-t-4': modalConfig.borderColor,
       }"
     >
-      <component :is="modalStore.modalComponent" />
+      <div class="w-full">
+        <div class="w-full text-end">
+          <i
+            className="bi bi-x-circle cursor-pointer text-2xl"
+            @click="modalStore.closeModal()"
+          ></i>
+        </div>
+        <component :is="modalStore.modalComponent" />
+      </div>
     </div>
   </div>
 </template>

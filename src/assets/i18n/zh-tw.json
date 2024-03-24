@@ -25,5 +25,13 @@
   "doSometing.label.card2.title": "傷心的事",
   "doSometing.label.card2.content": "即使在傷心的時候,也可以寫下來,當你之後回頭看的時候,可以回想起當時的你!",
   "doSometing.label.card3.title": "寫寫筆記",
-  "doSometing.label.card3.content": "可以拿來寫筆記,紀錄一下當天學到什麼,或碰到什麼問題"
+  "doSometing.label.card3.content": "可以拿來寫筆記,紀錄一下當天學到什麼,或碰到什麼問題",
+
+  "register.label.button.upload": "上傳你的大頭貼",
+  "register.label.useranme": "姓名：",
+  "register.label.email": "信箱：",
+  "register.label.password": "密碼：",
+  "register.label.placeHolder.userName": "請輸入你的姓名...",
+  "register.label.placeHolder.email": "請輸入你的信箱...",
+  "register.label.placeHolder.password": "請輸入你的密碼..."
 }

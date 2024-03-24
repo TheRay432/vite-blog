@@ -11,6 +11,7 @@ declare module 'vue' {
     BaseErrMsg: typeof import('./components/share/err-msg/BaseErrMsg.vue')['default']
     BaseForm: typeof import('./components/share/form/BaseForm.vue')['default']
     BaseInput: typeof import('./components/share/input/BaseInput.vue')['default']
+    ButtonFill: typeof import('./components/share/button/ButtonFill.vue')['default']
     ButtonPost: typeof import('./components/share/button/ButtonPost.vue')['default']
     ButtonPrimary: typeof import('./components/share/button/ButtonPrimary.vue')['default']
     ButtonSuccess: typeof import('./components/share/button/ButtonSuccess.vue')['default']

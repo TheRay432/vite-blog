@@ -6,6 +6,8 @@ export enum InputLength {
   Normal = 'normal',
   /** 長型 */
   Large = 'large',
+  /** 全長 */
+  Full = 'full',
 }
 
 /** BaseInput- 類型  */

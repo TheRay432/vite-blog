@@ -18,11 +18,12 @@ const model = defineModel<string>();
   <div class="flex flex-col">
     <v-field
       :as="inputType"
-      class="px-4 py-2 rounded-md border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-300 relative"
+      class="px-4 py-2 h-8 rounded-md border border-gray-300 outline-none focus:ring-blue-500 focus:border-blue-300 relative"
       :class="{
         small: inputLength === InputLength.Small,
         normal: inputLength === InputLength.Normal,
         large: inputLength === InputLength.Large,
+        'w-full': inputLength === InputLength.Full,
         'border-red-500': errors[name],
       }"
       :type="inputType"

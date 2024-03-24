@@ -1,8 +1,4 @@
-<script setup lang="ts">
-import { useModalStore } from './stores/modal/modal';
-
-const modalStore = useModalStore();
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <NavBar />
