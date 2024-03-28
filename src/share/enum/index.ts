@@ -18,6 +18,8 @@ export enum InputType {
   Password = 'password',
   /** 數字 */
   Number = 'number',
+  /** 檔案 */
+  File = 'file',
 }
 
 /** 按鈕大小 */

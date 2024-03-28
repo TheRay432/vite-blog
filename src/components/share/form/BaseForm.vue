@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { Form as VForm } from 'vee-validate';
 
-const emit = defineEmits(['submitEvent']);
+const emit = defineEmits<{
+  submitEvent: [data: any];
+}>();
 
-function handelSubmit(): void {
-  emit('submitEvent');
+function handelSubmit(data: any): void {
+  emit('submitEvent', data);
 }
 </script>
 <template>

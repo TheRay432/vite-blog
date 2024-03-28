@@ -7,7 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    BaseButton: typeof import('./components/share/button/ButtonPrimary.vue')['default']
     BaseErrMsg: typeof import('./components/share/err-msg/BaseErrMsg.vue')['default']
     BaseForm: typeof import('./components/share/form/BaseForm.vue')['default']
     BaseInput: typeof import('./components/share/input/BaseInput.vue')['default']
@@ -18,12 +17,10 @@ declare module 'vue' {
     DoSomething: typeof import('./components/Home/DoSomething.vue')['default']
     Feeling: typeof import('./components/Home/Feeling.vue')['default']
     Footer: typeof import('./components/Footer/Footer.vue')['default']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     Life: typeof import('./components/Home/Life.vue')['default']
     LoginModal: typeof import('./components/share/modal/login/LoginModal.vue')['default']
     Modal: typeof import('./components/share/modal/Modal.vue')['default']
     NavBar: typeof import('./components/NavBar/NavBar.vue')['default']
-    Register: typeof import('./components/share/modal/register/Register.vue')['default']
     RegisterModal: typeof import('./components/share/modal/register/RegisterModal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
